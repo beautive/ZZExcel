@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CEC8AD179CF36575C6BCD9 /* libPods-ZZExcelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3704DD1288F65993A9A423 /* libPods-ZZExcelTests.a */; };
+		4D57D3F521AD253F00D4B9FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D3F421AD253F00D4B9FB /* AppDelegate.m */; };
+		4D57D3F821AD253F00D4B9FB /* ExcelSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D3F721AD253F00D4B9FB /* ExcelSingleViewController.m */; };
+		4D57D3FB21AD253F00D4B9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D57D3F921AD253F00D4B9FB /* Main.storyboard */; };
+		4D57D3FD21AD254100D4B9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D57D3FC21AD254100D4B9FB /* Assets.xcassets */; };
+		4D57D40021AD254100D4B9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D57D3FE21AD254100D4B9FB /* LaunchScreen.storyboard */; };
+		4D57D40321AD254100D4B9FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D40221AD254100D4B9FB /* main.m */; };
+		4D57D40D21AD254100D4B9FB /* ZZExcelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D40C21AD254100D4B9FB /* ZZExcelTests.m */; };
+		4D57D41821AD254100D4B9FB /* ZZExcelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D41721AD254100D4B9FB /* ZZExcelUITests.m */; };
+		4D57D42E21AD353400D4B9FB /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D42D21AD353400D4B9FB /* HeaderView.m */; };
+		4D57D43321AE39F700D4B9FB /* IndicatorTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D43221AE39F700D4B9FB /* IndicatorTitleCell.m */; };
+		4D57D43621AE62A000D4B9FB /* ExcelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D43521AE62A000D4B9FB /* ExcelModel.m */; };
+		4D57D43A21AE6ACC00D4B9FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D43921AE6ACC00D4B9FB /* ViewController.m */; };
+		4D57D43D21AE907800D4B9FB /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D43C21AE907800D4B9FB /* ArrayDataSource.m */; };
+		4D57D44521AF8DF500D4B9FB /* RRFPSBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D44421AF8DF500D4B9FB /* RRFPSBar.m */; };
+		4D57D44921AFA8FC00D4B9FB /* HeaderItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D57D44821AFA8FC00D4B9FB /* HeaderItemView.xib */; };
+		4D57D44C21AFA91200D4B9FB /* HeaderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D57D44B21AFA91200D4B9FB /* HeaderItemView.m */; };
+		8806B40CDB6C34FF8A9E1540 /* libPods-ZZExcelUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 999B9C1E8CE7EC69AB66E2D8 /* libPods-ZZExcelUITests.a */; };
+		FD5431B465D2A227E8E4787E /* libPods-ZZExcel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9981444F11F61D7EC7B45B48 /* libPods-ZZExcel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D57D40921AD254100D4B9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D57D3E821AD253F00D4B9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D57D3EF21AD253F00D4B9FB;
+			remoteInfo = ZZExcel;
+		};
+		4D57D41421AD254100D4B9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D57D3E821AD253F00D4B9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D57D3EF21AD253F00D4B9FB;
+			remoteInfo = ZZExcel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21068884C2367FCAB710B2C1 /* Pods-ZZExcelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZExcelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZExcelTests/Pods-ZZExcelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD49216B18D759633B8B6E7 /* Pods-ZZExcelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZExcelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZExcelTests/Pods-ZZExcelTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D57D3F021AD253F00D4B9FB /* ZZExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D57D3F321AD253F00D4B9FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D57D3F421AD253F00D4B9FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D57D3F621AD253F00D4B9FB /* ExcelSingleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelSingleViewController.h; sourceTree = "<group>"; };
+		4D57D3F721AD253F00D4B9FB /* ExcelSingleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelSingleViewController.m; sourceTree = "<group>"; };
+		4D57D3FA21AD253F00D4B9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D57D3FC21AD254100D4B9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D57D3FF21AD254100D4B9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D57D40121AD254100D4B9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D57D40221AD254100D4B9FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D57D40821AD254100D4B9FB /* ZZExcelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZExcelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D57D40C21AD254100D4B9FB /* ZZExcelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZExcelTests.m; sourceTree = "<group>"; };
+		4D57D40E21AD254100D4B9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D57D41321AD254100D4B9FB /* ZZExcelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZExcelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D57D41721AD254100D4B9FB /* ZZExcelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZExcelUITests.m; sourceTree = "<group>"; };
+		4D57D41921AD254100D4B9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D57D42A21AD34F300D4B9FB /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		4D57D42D21AD353400D4B9FB /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		4D57D42F21AD378E00D4B9FB /* ExcelDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelDefine.h; sourceTree = "<group>"; };
+		4D57D43121AE39F700D4B9FB /* IndicatorTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndicatorTitleCell.h; sourceTree = "<group>"; };
+		4D57D43221AE39F700D4B9FB /* IndicatorTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndicatorTitleCell.m; sourceTree = "<group>"; };
+		4D57D43421AE62A000D4B9FB /* ExcelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelModel.h; sourceTree = "<group>"; };
+		4D57D43521AE62A000D4B9FB /* ExcelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelModel.m; sourceTree = "<group>"; };
+		4D57D43821AE6ACC00D4B9FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D57D43921AE6ACC00D4B9FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D57D43B21AE907800D4B9FB /* ArrayDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		4D57D43C21AE907800D4B9FB /* ArrayDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		4D57D44321AF8DF500D4B9FB /* RRFPSBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFPSBar.h; sourceTree = "<group>"; };
+		4D57D44421AF8DF500D4B9FB /* RRFPSBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRFPSBar.m; sourceTree = "<group>"; };
+		4D57D44821AFA8FC00D4B9FB /* HeaderItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderItemView.xib; sourceTree = "<group>"; };
+		4D57D44A21AFA91200D4B9FB /* HeaderItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderItemView.h; sourceTree = "<group>"; };
+		4D57D44B21AFA91200D4B9FB /* HeaderItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderItemView.m; sourceTree = "<group>"; };
+		52B99DE57EC950861E53F5B0 /* Pods-ZZExcelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZExcelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZExcelUITests/Pods-ZZExcelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E1B232ECEB37820D0A5012A /* Pods-ZZExcelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZExcelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZExcelUITests/Pods-ZZExcelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88C1DC7D66411914723F8892 /* Pods-ZZExcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZExcel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZExcel/Pods-ZZExcel.release.xcconfig"; sourceTree = "<group>"; };
+		9981444F11F61D7EC7B45B48 /* libPods-ZZExcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZExcel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		999B9C1E8CE7EC69AB66E2D8 /* libPods-ZZExcelUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZExcelUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB6A72AEAFE5E0A8B042308 /* Pods-ZZExcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZExcel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZExcel/Pods-ZZExcel.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3704DD1288F65993A9A423 /* libPods-ZZExcelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZExcelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D57D3ED21AD253F00D4B9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5431B465D2A227E8E4787E /* libPods-ZZExcel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57D40521AD254100D4B9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CEC8AD179CF36575C6BCD9 /* libPods-ZZExcelTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57D41021AD254100D4B9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806B40CDB6C34FF8A9E1540 /* libPods-ZZExcelUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D57D3E721AD253F00D4B9FB = {
+			isa = PBXGroup;
+			children = (
+				4D57D3F221AD253F00D4B9FB /* ZZExcel */,
+				4D57D40B21AD254100D4B9FB /* ZZExcelTests */,
+				4D57D41621AD254100D4B9FB /* ZZExcelUITests */,
+				4D57D3F121AD253F00D4B9FB /* Products */,
+				5320A7E1670C0F2C085ABC73 /* Pods */,
+				A42AF6071F9F19FB99D75072 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D57D3F121AD253F00D4B9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D3F021AD253F00D4B9FB /* ZZExcel.app */,
+				4D57D40821AD254100D4B9FB /* ZZExcelTests.xctest */,
+				4D57D41321AD254100D4B9FB /* ZZExcelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D57D3F221AD253F00D4B9FB /* ZZExcel */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D43721AE678C00D4B9FB /* Common */,
+				4D57D42921AD344300D4B9FB /* ExcelMultipleTableView */,
+				4D57D42821AD33D600D4B9FB /* ExcelSingleTableView */,
+				4D57D43821AE6ACC00D4B9FB /* ViewController.h */,
+				4D57D43921AE6ACC00D4B9FB /* ViewController.m */,
+				4D57D3F321AD253F00D4B9FB /* AppDelegate.h */,
+				4D57D3F421AD253F00D4B9FB /* AppDelegate.m */,
+				4D57D3F921AD253F00D4B9FB /* Main.storyboard */,
+				4D57D3FC21AD254100D4B9FB /* Assets.xcassets */,
+				4D57D3FE21AD254100D4B9FB /* LaunchScreen.storyboard */,
+				4D57D40121AD254100D4B9FB /* Info.plist */,
+				4D57D40221AD254100D4B9FB /* main.m */,
+			);
+			path = ZZExcel;
+			sourceTree = "<group>";
+		};
+		4D57D40B21AD254100D4B9FB /* ZZExcelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D40C21AD254100D4B9FB /* ZZExcelTests.m */,
+				4D57D40E21AD254100D4B9FB /* Info.plist */,
+			);
+			path = ZZExcelTests;
+			sourceTree = "<group>";
+		};
+		4D57D41621AD254100D4B9FB /* ZZExcelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D41721AD254100D4B9FB /* ZZExcelUITests.m */,
+				4D57D41921AD254100D4B9FB /* Info.plist */,
+			);
+			path = ZZExcelUITests;
+			sourceTree = "<group>";
+		};
+		4D57D42521AD339C00D4B9FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D42A21AD34F300D4B9FB /* HeaderView.h */,
+				4D57D42D21AD353400D4B9FB /* HeaderView.m */,
+				4D57D44A21AFA91200D4B9FB /* HeaderItemView.h */,
+				4D57D44B21AFA91200D4B9FB /* HeaderItemView.m */,
+				4D57D44821AFA8FC00D4B9FB /* HeaderItemView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D57D42621AD33B200D4B9FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D3F621AD253F00D4B9FB /* ExcelSingleViewController.h */,
+				4D57D3F721AD253F00D4B9FB /* ExcelSingleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D57D42721AD33BD00D4B9FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D43421AE62A000D4B9FB /* ExcelModel.h */,
+				4D57D43521AE62A000D4B9FB /* ExcelModel.m */,
+				4D57D43B21AE907800D4B9FB /* ArrayDataSource.h */,
+				4D57D43C21AE907800D4B9FB /* ArrayDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D57D42821AD33D600D4B9FB /* ExcelSingleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D42721AD33BD00D4B9FB /* Model */,
+				4D57D42621AD33B200D4B9FB /* Controller */,
+				4D57D42521AD339C00D4B9FB /* View */,
+				4D57D43021AE380B00D4B9FB /* Cell */,
+			);
+			path = ExcelSingleTableView;
+			sourceTree = "<group>";
+		};
+		4D57D42921AD344300D4B9FB /* ExcelMultipleTableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExcelMultipleTableView;
+			sourceTree = "<group>";
+		};
+		4D57D43021AE380B00D4B9FB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D43121AE39F700D4B9FB /* IndicatorTitleCell.h */,
+				4D57D43221AE39F700D4B9FB /* IndicatorTitleCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4D57D43721AE678C00D4B9FB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D44221AF8DF500D4B9FB /* RRFPSBar */,
+				4D57D42F21AD378E00D4B9FB /* ExcelDefine.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4D57D44221AF8DF500D4B9FB /* RRFPSBar */ = {
+			isa = PBXGroup;
+			children = (
+				4D57D44321AF8DF500D4B9FB /* RRFPSBar.h */,
+				4D57D44421AF8DF500D4B9FB /* RRFPSBar.m */,
+			);
+			path = RRFPSBar;
+			sourceTree = "<group>";
+		};
+		5320A7E1670C0F2C085ABC73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AB6A72AEAFE5E0A8B042308 /* Pods-ZZExcel.debug.xcconfig */,
+				88C1DC7D66411914723F8892 /* Pods-ZZExcel.release.xcconfig */,
+				21068884C2367FCAB710B2C1 /* Pods-ZZExcelTests.debug.xcconfig */,
+				3BD49216B18D759633B8B6E7 /* Pods-ZZExcelTests.release.xcconfig */,
+				52B99DE57EC950861E53F5B0 /* Pods-ZZExcelUITests.debug.xcconfig */,
+				5E1B232ECEB37820D0A5012A /* Pods-ZZExcelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A42AF6071F9F19FB99D75072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9981444F11F61D7EC7B45B48 /* libPods-ZZExcel.a */,
+				ED3704DD1288F65993A9A423 /* libPods-ZZExcelTests.a */,
+				999B9C1E8CE7EC69AB66E2D8 /* libPods-ZZExcelUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D57D3EF21AD253F00D4B9FB /* ZZExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D57D41C21AD254100D4B9FB /* Build configuration list for PBXNativeTarget "ZZExcel" */;
+			buildPhases = (
+				61A559406C38BAF4C42577C6 /* [CP] Check Pods Manifest.lock */,
+				4D57D3EC21AD253F00D4B9FB /* Sources */,
+				4D57D3ED21AD253F00D4B9FB /* Frameworks */,
+				4D57D3EE21AD253F00D4B9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZExcel;
+			productName = ZZExcel;
+			productReference = 4D57D3F021AD253F00D4B9FB /* ZZExcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D57D40721AD254100D4B9FB /* ZZExcelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D57D41F21AD254100D4B9FB /* Build configuration list for PBXNativeTarget "ZZExcelTests" */;
+			buildPhases = (
+				9B5B23494A778A132F3F8199 /* [CP] Check Pods Manifest.lock */,
+				4D57D40421AD254100D4B9FB /* Sources */,
+				4D57D40521AD254100D4B9FB /* Frameworks */,
+				4D57D40621AD254100D4B9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D57D40A21AD254100D4B9FB /* PBXTargetDependency */,
+			);
+			name = ZZExcelTests;
+			productName = ZZExcelTests;
+			productReference = 4D57D40821AD254100D4B9FB /* ZZExcelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D57D41221AD254100D4B9FB /* ZZExcelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D57D42221AD254100D4B9FB /* Build configuration list for PBXNativeTarget "ZZExcelUITests" */;
+			buildPhases = (
+				EC1C54366059B7F272792E1E /* [CP] Check Pods Manifest.lock */,
+				4D57D40F21AD254100D4B9FB /* Sources */,
+				4D57D41021AD254100D4B9FB /* Frameworks */,
+				4D57D41121AD254100D4B9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D57D41521AD254100D4B9FB /* PBXTargetDependency */,
+			);
+			name = ZZExcelUITests;
+			productName = ZZExcelUITests;
+			productReference = 4D57D41321AD254100D4B9FB /* ZZExcelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D57D3E821AD253F00D4B9FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zz;
+				TargetAttributes = {
+					4D57D3EF21AD253F00D4B9FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4D57D40721AD254100D4B9FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4D57D3EF21AD253F00D4B9FB;
+					};
+					4D57D41221AD254100D4B9FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4D57D3EF21AD253F00D4B9FB;
+					};
+				};
+			};
+			buildConfigurationList = 4D57D3EB21AD253F00D4B9FB /* Build configuration list for PBXProject "ZZExcel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D57D3E721AD253F00D4B9FB;
+			productRefGroup = 4D57D3F121AD253F00D4B9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D57D3EF21AD253F00D4B9FB /* ZZExcel */,
+				4D57D40721AD254100D4B9FB /* ZZExcelTests */,
+				4D57D41221AD254100D4B9FB /* ZZExcelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D57D3EE21AD253F00D4B9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D57D44921AFA8FC00D4B9FB /* HeaderItemView.xib in Resources */,
+				4D57D40021AD254100D4B9FB /* LaunchScreen.storyboard in Resources */,
+				4D57D3FD21AD254100D4B9FB /* Assets.xcassets in Resources */,
+				4D57D3FB21AD253F00D4B9FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57D40621AD254100D4B9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57D41121AD254100D4B9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61A559406C38BAF4C42577C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZExcel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5B23494A778A132F3F8199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZExcelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1C54366059B7F272792E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZExcelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D57D3EC21AD253F00D4B9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D57D44C21AFA91200D4B9FB /* HeaderItemView.m in Sources */,
+				4D57D43A21AE6ACC00D4B9FB /* ViewController.m in Sources */,
+				4D57D42E21AD353400D4B9FB /* HeaderView.m in Sources */,
+				4D57D3F821AD253F00D4B9FB /* ExcelSingleViewController.m in Sources */,
+				4D57D40321AD254100D4B9FB /* main.m in Sources */,
+				4D57D43321AE39F700D4B9FB /* IndicatorTitleCell.m in Sources */,
+				4D57D44521AF8DF500D4B9FB /* RRFPSBar.m in Sources */,
+				4D57D3F521AD253F00D4B9FB /* AppDelegate.m in Sources */,
+				4D57D43D21AE907800D4B9FB /* ArrayDataSource.m in Sources */,
+				4D57D43621AE62A000D4B9FB /* ExcelModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57D40421AD254100D4B9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D57D40D21AD254100D4B9FB /* ZZExcelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57D40F21AD254100D4B9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D57D41821AD254100D4B9FB /* ZZExcelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D57D40A21AD254100D4B9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D57D3EF21AD253F00D4B9FB /* ZZExcel */;
+			targetProxy = 4D57D40921AD254100D4B9FB /* PBXContainerItemProxy */;
+		};
+		4D57D41521AD254100D4B9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D57D3EF21AD253F00D4B9FB /* ZZExcel */;
+			targetProxy = 4D57D41421AD254100D4B9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D57D3F921AD253F00D4B9FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D57D3FA21AD253F00D4B9FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D57D3FE21AD254100D4B9FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D57D3FF21AD254100D4B9FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D57D41A21AD254100D4B9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D57D41B21AD254100D4B9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D57D41D21AD254100D4B9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB6A72AEAFE5E0A8B042308 /* Pods-ZZExcel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWY39UCT73;
+				INFOPLIST_FILE = ZZExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzou.ZZExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D57D41E21AD254100D4B9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C1DC7D66411914723F8892 /* Pods-ZZExcel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWY39UCT73;
+				INFOPLIST_FILE = ZZExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzou.ZZExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D57D42021AD254100D4B9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21068884C2367FCAB710B2C1 /* Pods-ZZExcelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWY39UCT73;
+				INFOPLIST_FILE = ZZExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzou.ZZExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZExcel.app/ZZExcel";
+			};
+			name = Debug;
+		};
+		4D57D42121AD254100D4B9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD49216B18D759633B8B6E7 /* Pods-ZZExcelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWY39UCT73;
+				INFOPLIST_FILE = ZZExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzou.ZZExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZExcel.app/ZZExcel";
+			};
+			name = Release;
+		};
+		4D57D42321AD254100D4B9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B99DE57EC950861E53F5B0 /* Pods-ZZExcelUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWY39UCT73;
+				INFOPLIST_FILE = ZZExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzou.ZZExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZExcel;
+			};
+			name = Debug;
+		};
+		4D57D42421AD254100D4B9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1B232ECEB37820D0A5012A /* Pods-ZZExcelUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWY39UCT73;
+				INFOPLIST_FILE = ZZExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzou.ZZExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZExcel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D57D3EB21AD253F00D4B9FB /* Build configuration list for PBXProject "ZZExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D57D41A21AD254100D4B9FB /* Debug */,
+				4D57D41B21AD254100D4B9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D57D41C21AD254100D4B9FB /* Build configuration list for PBXNativeTarget "ZZExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D57D41D21AD254100D4B9FB /* Debug */,
+				4D57D41E21AD254100D4B9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D57D41F21AD254100D4B9FB /* Build configuration list for PBXNativeTarget "ZZExcelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D57D42021AD254100D4B9FB /* Debug */,
+				4D57D42121AD254100D4B9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D57D42221AD254100D4B9FB /* Build configuration list for PBXNativeTarget "ZZExcelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D57D42321AD254100D4B9FB /* Debug */,
+				4D57D42421AD254100D4B9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D57D3E821AD253F00D4B9FB /* Project object */;
+}
